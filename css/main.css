@@ -21,9 +21,7 @@
 .text-Justify{
     text-align: justify;
 }
-body{
-    overflow-y: scroll;
-}
+ 
 body::-webkit-scrollbar {
   width: 15px;               /* width of the entire scrollbar */
 
@@ -47,4 +45,10 @@ body::-webkit-scrollbar-thumb {
     background-size: cover;
     margin: 1.5rem 0rem;
     padding: 9rem 1rem;
+}
+#particles-js {
+	height: 100vh; 
+	width: 100%;
+    position: fixed;
+    z-index: -1;
 }
