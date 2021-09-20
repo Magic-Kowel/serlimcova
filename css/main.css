@@ -7,6 +7,9 @@
 .bgSecundaryColor{
     background-color: var(--secundaryColor) !important;
 }
+.colorPrimary{
+    color: var(--primaryColor) !important;
+}
 .borderColorPrimary{
     border-color: var(--primaryColor) !important;
 }
