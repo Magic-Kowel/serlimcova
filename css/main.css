@@ -1,5 +1,10 @@
+/* variables*/
 @import "./colores.css";
-
+/* fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300&display=swap');
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
 .bgPrimaryColor{
     background-color: var(--primaryColor) !important;
 }
@@ -15,6 +20,24 @@
 }
 .text-Justify{
     text-align: justify;
+}
+body{
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+  width: 15px;               /* width of the entire scrollbar */
+
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(255, 255, 255);        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+
+  background-color: var(--primaryColor);/* color of the scroll thumb */
+  border-radius: 100px;       /* roundness of the scroll thumb */
+  border: 15px solid var(--primaryColor);  /* creates padding around scroll thumb */
 }
 #bgNosotros{
     background: url("../img/panorama-2405958_640.jpg") no-repeat center center fixed;
