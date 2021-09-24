@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
     opacity .5s, visibility .5s;
     opacity: 0;
     visibility: hidden;
-    z-index: 2;
+    z-index: 10000;
 }
 #scrollToTop.show {
     opacity: 0.5;
