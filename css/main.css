@@ -52,7 +52,7 @@ body::-webkit-scrollbar-thumb {
     position: fixed;
     z-index: -1;
 }
-#scrollToTopd{
+#scrollToTop{
     display: inline-block;
     text-align: center;
     position: fixed;
