@@ -61,12 +61,11 @@ body::-webkit-scrollbar-thumb {
     transition: background-color .3s, 
     opacity .5s, visibility .5s;
     opacity: 0;
-    visibility: hidden;
     z-index: 10000;
 }
-.show {
+#scrollToTop.show {
     opacity: 0.5;
-    visibility: visible;
+ 
 }
 .hoverGrow{
     display: inline-block;
