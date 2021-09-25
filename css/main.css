@@ -65,11 +65,13 @@ body::-webkit-scrollbar-thumb {
     visibility: hidden;*/
     z-index: 10000;
 }
+/*
 #scrollToTop.show {
     opacity: 0.5;
-    /*
-    visibility: visible;*/
+    
+    visibility: visible;
 }
+*/
 .hoverGrow{
     display: inline-block;
     vertical-align: middle;
